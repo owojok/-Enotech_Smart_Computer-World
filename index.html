@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enotech Smart Computer World | Premium Tech & Accessories</title>
+    <meta name="description"
+        content="Enotech Smart Computer World offers premium laptops, foreign used systems, and high-quality computer accessories tailored for professionals and enthusiasts.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor js-cursor"></div>
+    <div class="cursor-follower js-cursor-follower"></div>
+
+    <header class="header js-header">
+        <div class="container header__inner">
+            <a href="/" class="logo" aria-label="Enotech Home">
+                <img src="assets/images/logo.png" alt="Enotech Logo" class="logo__img">
+            </a>
+            <nav class="nav js-nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#products" class="nav__link">Products</a></li>
+                    <li class="nav__item"><a href="#features" class="nav__link">Why Us</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger js-hamburger" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home/Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero__bg-element hero__bg-element--1 js-parallax" data-speed="0.2"></div>
+            <div class="hero__bg-element hero__bg-element--2 js-parallax" data-speed="-0.3"></div>
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <span class="tagline fade-in-up">Welcome to the Future of Computing</span>
+                    <h1 class="hero__title js-text-reveal">Redefine Your <br><span class="text-gradient">Digital
+                            Experience</span></h1>
+                    <p class="hero__description fade-in-up js-observe" style="transition-delay: 200ms;">Premium laptops,
+                        certified foreign-used systems, and top-tier
+                        accessories engineered for uncompromising performance.</p>
+                    <div class="hero__actions fade-in-up js-observe" style="transition-delay: 300ms;">
+                        <a href="#products" class="btn btn--primary js-magnetic js-hover-target">Explore Collection</a>
+                        <a href="#contact" class="btn btn--secondary js-magnetic js-hover-target">Get in Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="section bg-dark">
+            <div class="container">
+                <div class="section__header fade-in-up">
+                    <h2 class="section__title">Our <span class="text-gradient">Offerings</span></h2>
+                    <p class="section__subtitle">Curated excellence for professionals, creatives, and gamers.</p>
+                </div>
+
+                <div class="products-grid">
+                    <!-- Product Card 1 -->
+                    <article class="card fade-in-up js-observe">
+                        <div class="card__image-wrapper">
+                            <img src="assets/images/laptops.png" alt="Premium Laptops" class="card__image"
+                                loading="lazy">
+                        </div>
+                        <div class="card__content">
+                            <h3 class="card__title">Premium Laptops</h3>
+                            <p class="card__description">Discover the latest brand-new laptops from top global
+                                manufacturers, guaranteeing cutting-edge performance.</p>
+                            <a href="#" class="card__link">View Catalog &rarr;</a>
+                        </div>
+                    </article>
+
+                    <!-- Product Card 2 -->
+                    <article class="card fade-in-up js-observe" style="transition-delay: 100ms;">
+                        <div class="card__image-wrapper">
+                            <div class="card__placeholder tech-bg"></div>
+                        </div>
+                        <div class="card__content">
+                            <h3 class="card__title">Foreign Used Systems</h3>
+                            <p class="card__description">Extensively tested, certified foreign-used computer systems
+                                offering outstanding value without compromising quality.</p>
+                            <a href="#" class="card__link">View Catalog &rarr;</a>
+                        </div>
+                    </article>
+
+                    <!-- Product Card 3 -->
+                    <article class="card fade-in-up js-observe" style="transition-delay: 200ms;">
+                        <div class="card__image-wrapper">
+                            <img src="assets/images/accessories.png" alt="Computer Accessories" class="card__image"
+                                loading="lazy">
+                        </div>
+                        <div class="card__content">
+                            <h3 class="card__title">Pro Accessories</h3>
+                            <p class="card__description">Enhance your setup with our range of high-performance
+                                peripherals, from mechanical keyboards to precision mice.</p>
+                            <a href="#" class="card__link">View Catalog &rarr;</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats/Features Section -->
+        <section id="features" class="section features">
+            <div class="container">
+                <div class="features__grid">
+                    <div class="feature fade-in-up js-observe">
+                        <div class="feature__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="feature__title">Certified Quality</h4>
+                        <p class="feature__text">Every system undergoes rigorous 50-point quality assurance testing.</p>
+                    </div>
+                    <div class="feature fade-in-up js-observe" style="transition-delay: 100ms;">
+                        <div class="feature__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                        <h4 class="feature__title">Extended Warranty</h4>
+                        <p class="feature__text">Peace of mind with comprehensive warranty options on all purchases.</p>
+                    </div>
+                    <div class="feature fade-in-up js-observe" style="transition-delay: 200ms;">
+                        <div class="feature__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                                </path>
+                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                            </svg>
+                        </div>
+                        <h4 class="feature__title">Expert Support</h4>
+                        <p class="feature__text">Dedicated technical team ready to assist with deployment and
+                            troubleshooting.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <a href="/" class="logo" aria-label="Enotech Home">
+                        <img src="assets/images/logo.png" alt="Enotech Logo" class="logo__img">
+                    </a>
+                    <p class="footer__desc">Your trusted partner for high-performance computing solutions and premium
+                        tech accessories.</p>
+                </div>
+                <div class="footer__col">
+                    <h5 class="footer__title">Quick Links</h5>
+                    <ul class="footer__links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#features">Why Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h5 class="footer__title">Contact Us</h5>
+                    <ul class="footer__links">
+                        <li>123 Tech Avenue, Silicon District</li>
+                        <li>contact@enotechsmart.com</li>
+                        <li>+1 (555) 123-4567</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Enotech Smart Computer World. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main Scripts -->
+    <script src="scripts/main.js" defer></script>
+</body>
+
+</html>
