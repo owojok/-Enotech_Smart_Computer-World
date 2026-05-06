@@ -350,6 +350,7 @@ h6 {
     transition: transform var(--transition-base), border-color var(--transition-base), box-shadow var(--transition-base);
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .card:hover {
@@ -424,6 +425,13 @@ h6 {
     font-family: var(--font-heading);
     display: inline-flex;
     align-items: center;
+}
+
+.card__link::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
 }
 
 .card__link:hover {
