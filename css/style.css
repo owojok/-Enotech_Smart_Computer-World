@@ -532,6 +532,54 @@ h6 {
     font-size: 0.85rem;
 }
 
+/* Contact Section Enhancements */
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-list__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    color: var(--color-text-muted);
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.contact-list__item .contact-icon {
+    flex-shrink: 0;
+    color: var(--color-primary);
+    margin-top: 2px;
+}
+
+.contact-list__item strong {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.contact-list__item a {
+    color: var(--color-text-muted);
+    transition: color var(--transition-fast);
+}
+
+.contact-list__item a:hover {
+    color: var(--color-primary);
+}
+
+.phone-inline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
 /* Animations & Utilities */
 .fade-in-up {
     opacity: 0;
